@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal RGBL Notícias</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #5b0533;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #901768;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* area principal */
+        .principal {
+            flex: 3;
+        }
+
+        .destaque {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .noticias {
+            display: flex;
+            gap: 15px;
+        }
+
+        .noticia {
+            background-color: white;
+            padding: 15px;
+            flex: 1;
+        }
+
+        aside {
+            flex: 1;
+            background-color: white;
+            padding: 15px;
+        }
+
+        footer {
+            background-color: #c962a5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portal RGBL Notícias</h1>
+    </header>
+
+    <!-- menu -->
+    <nav>
+        <a href="#">Política</a>
+        <a href="#">Esporte</a>
+        <a href="#">Tecnologia</a>
+    </nav>
+
+    <main>
+        <section class="principal">
+            <article class="destaque">
+                <h2>Nova tecnologia promete revolucionar o mercado</h2>
+                <p>
+                    Uma inovação recente está chamando a atenção de especialistas e pode mudar
+                    completamente a forma como utilizamos dispositivos no dia a dia.
+                </p>
+            </article>
+
+            <div class="noticias">
+                <article class="noticia">
+                    <h3>Esporte em alta</h3>
+                    <p>O time local venceu mais uma partida importante no campeonato.</p>
+                </article>
+
+                <article class="noticia">
+                    <h3>Política em debate</h3>
+                    <p>Novas propostas estão sendo discutidas no cenário nacional.</p>
+                </article>
+
+                <article class="noticia">
+                    <h3>Avanços na ciência</h3>
+                    <p>Pesquisadores anunciam descoberta importante na área da saúde.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- barra lateral -->
+        <aside>
+            <h3>Mais lidas</h3>
+            <ul>
+                <li><a href="#">Notícia popular 1</a></li>
+                <li><a href="#">Notícia popular 2</a></li>
+                <li><a href="#">Notícia popular 3</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+        <p>&copy; 2026 Portal RGBL - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

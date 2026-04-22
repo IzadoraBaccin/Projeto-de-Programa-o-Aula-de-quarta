@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.topo {
+    height: 80px;
+    width: 100%;
+    background: #ffffff;
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border: 2px solid rgba(255,0,0,0.3);
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border: 1px dashed rgba(0,0,255,0.4);
+    padding: 5px;
+}
+
+.logo span{
+    font-size:20px;
+    font-weight:600;
+    color:#111;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 1px dashed rgba(0,255,0,0.4);
+    padding: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+}
+
+.globo {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-topo {
+    background: #0a69d5;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px dashed rgba(0,0,0,0.3);
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    border: 2px solid rgba(165,42,42,0.3);
+}
+
+.esquerda {
+    width: 50%;
+    padding: 60px 50px;
+    background: #1c1c1c;
+    border: 2px solid rgba(0,128,128,0.3);
+}
+
+.esquerda h1 {
+    font-size: 4opx;
+    line-height: 1.1;
+    font-weight: 300;
+    margin-bottom: 30px;
+    border: 1px dashed rgba(255,255,255,0.3);
+    padding: 5px;
+}
+
+.esquerda p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    border: 1px dashed rgba(255,255,255,0.3);
+    padding: 5px;
+}
+
+.esquerda a {
+    color: white;
+}
+
+.btn-principal {
+    display: inline-block;
+    background-color: #0a69d5;
+    color: white;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px dashed rgba(0,0,0,0.3);
+}
+
+.comprar {
+    display: block;
+    margin-top: 25px;
+    font-size: 18px;
+    border: 1px dashed rgba(255,255,255,0.3);
+    padding: 5px;
+}
+
+.direita {
+    width: 50%;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(128,0,128,0.3);
+}
+
+.imagem {
+    width: 500px;
+    height: 320px;
+    border: 2px solid rgba(255,255,0,0.3);
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
